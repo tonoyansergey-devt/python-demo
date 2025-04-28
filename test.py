@@ -1,6 +1,6 @@
 import os
 
-print('The applied environment variable valuee :')
+print('The applied environment variable valueje :')
 print(os.environ.get('MY_VAR3'))
 print('The applied environment variable value is:')
 print(os.environ.get('ENV_FROM_FORK'))
