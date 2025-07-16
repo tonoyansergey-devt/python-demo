@@ -1,4 +1,10 @@
-language: python
-python:
-- 3.6
-script: python test.py
+os: windows
+language: c
+install: skip
+script: true
+deploy:
+  - provider: releases
+api_key: $GITHUB_TOKEN
+file: $GITHUB_FILE
+on:
+  branch: main
