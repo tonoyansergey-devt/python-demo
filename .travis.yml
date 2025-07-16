@@ -1,4 +1,5 @@
 os: windows
 deploy:
   - provider: releases
-dpl_version: 1.10.16
+language: c
+dpl_version: 2.0.3.beta.4
